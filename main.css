@@ -86,10 +86,14 @@
     padding-top: 100px !important;
     padding-bottom: 100px !important;
 }
-.about-quote h1, .our-formula-quote h1{
+.our-formula-quote h1{
     font-size: 2vw;
     font-weight: 400;
     color: #000;
+}
+.about-quote h1{
+    font-size: 2.5vw;
+    font-weight: 500;
 }
 .about-section{
     background-image: url(https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80);
@@ -236,9 +240,12 @@
         width: 100%;
         padding: 40px 20px;
     }
-    .about-quote h1, .our-formula-quote h1{
+    .our-formula-quote h1{
         font-size: 20px;
         color: #000;
+    }
+    .about-quote h1{
+        font-size: 32px;
     }
     .about-section{
         padding: 0 20px !important;
