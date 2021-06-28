@@ -2288,7 +2288,7 @@ em {
 
 .cb-menu-title {
     color: rgba(0, 0, 0, .3);
-    font-size: 16px;
+    font-size: 24px;
     line-height: 100%
 }
 
@@ -2549,8 +2549,8 @@ em {
     position: relative;
     display: block;
     padding: 12px 0;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 28px;
     letter-spacing: .00464286em;
     text-transform: capitalize;
     text-decoration: none
@@ -2667,8 +2667,8 @@ em {
     position: relative;
     display: inline-block;
     padding: 0 0 5px 0;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 28px;
     letter-spacing: .00464286em;
     text-decoration: none
 }
@@ -6242,18 +6242,18 @@ em {
     }
 }
 
-.cb-featured-header {
+.cb-featured-header, .cb-brief-header {
     text-align: center
 }
 
 @media (min-width:768px) {
-    .cb-featured-header {
+    .cb-featured-header, .cb-brief-header {
         text-align: left
     }
 }
 
 @media (min-width:1200px) {
-    .cb-featured-header {
+    .cb-featured-header, .cb-brief-header {
         padding: 0
     }
 }
@@ -6262,30 +6262,33 @@ em {
     margin: 0;
     padding: 0;
     font-size: 38px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 100%;
     text-transform: lowercase
 }
 
 @media (min-width:360px) {
-    .cb-featured-header h2 {
-        font-size: 42px
+    .cb-featured-header h2, .cb-brief-header h2 {
+        font-size: 42px;
+        font-weight: 500;
     }
 }
 
 @media (min-width:768px) {
-    .cb-featured-header h2 {
-        font-size: 60px
+    .cb-featured-header h2, .cb-brief-header h2 {
+        font-size: 60px;
+        font-weight: 500;
     }
 }
 
 @media (min-width:1600px) {
-    .cb-featured-header h2 {
-        font-size: 3.75vw
+    .cb-featured-header h2, .cb-brief-header h2 {
+        font-size: 4.5vw;
+        font-weight: 500;
     }
 }
 
-.cb-featured-header h2 span {
+.cb-featured-header h2 span, .cb-brief-header h2 span {
     display: block;
     color: #fff;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
@@ -6452,7 +6455,7 @@ em {
 
 .cb-featured-item-header h3 {
     display: inline;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     line-height: 150%
 }
@@ -6460,15 +6463,15 @@ em {
 @media (min-width:1200px) {
     .cb-featured-item-header h3 {
         display: block;
-        font-size: 1.5vw;
-        font-weight: 400;
+        font-size: 2.5vw;
+        font-weight: 500;
         line-height: 1
     }
 }
 
 .cb-featured-item-text {
     display: inline;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 150%
 }
 
@@ -6476,7 +6479,7 @@ em {
     .cb-featured-item-text {
         display: block;
         margin: 30px 0 0 0;
-        font-size: 2.58333vw;
+        font-size: 2vw;
         line-height: 133%;
         letter-spacing: -.03em
     }
@@ -7299,7 +7302,7 @@ em {
     opacity: .3;
     cursor: pointer;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 64px;
     letter-spacing: .00464286em;
     text-align: center;
@@ -7648,11 +7651,6 @@ em {
     padding: 7px 0 0 0
 }
 
-.cb-brief-header h2 {
-    color: rgba(0, 0, 0, .9);
-    font-size: 20px;
-    font-weight: 600
-}
 
 .cb-brief-text {
     font-size: 20px;
@@ -12684,7 +12682,7 @@ em {
 
 .cb-menu-title {
     color: rgba(0, 0, 0, .3);
-    font-size: 16px;
+    font-size: 24px;
     line-height: 100%
 }
 
@@ -12945,7 +12943,7 @@ em {
     position: relative;
     display: block;
     padding: 12px 0;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 20px;
     letter-spacing: .00464286em;
     text-transform: capitalize;
@@ -13063,8 +13061,8 @@ em {
     position: relative;
     display: inline-block;
     padding: 0 0 5px 0;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 28px;
     letter-spacing: .00464286em;
     text-decoration: none
 }
@@ -16658,31 +16656,34 @@ em {
     margin: 0;
     padding: 0;
     font-size: 38px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 100%;
     text-transform: lowercase
 }
 
 @media (min-width:360px) {
-    .cb-featured-header h2 {
-        font-size: 42px
+    .cb-featured-header h2, .cb-brief-header h2{
+        font-size: 42px;
+        font-weight: 500;
     }
 }
 
 @media (min-width:768px) {
-    .cb-featured-header h2 {
-        font-size: 60px
+    .cb-featured-header h2, .cb-brief-header h2 {
+        font-size: 60px;
+        font-weight: 500;
     }
 }
 
 @media (min-width:1600px) {
-    .cb-featured-header h2 {
-        font-size: 3.75vw
+    .cb-featured-header h2, .cb-brief-header h2 {
+        font-size: 4.5vw;
+        font-weight: 500;
     }
 }
 
 .cb-featured-header h2 span {
-    display: block;
+    /* display: block; */
     color: #fff;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
 }
@@ -16850,7 +16851,7 @@ em {
 
 .cb-featured-item-header h3 {
     display: inline;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     line-height: 150%
 }
@@ -16858,8 +16859,8 @@ em {
 @media (min-width:1200px) {
     .cb-featured-item-header h3 {
         display: block;
-        font-size: 1.5vw;
-        font-weight: 400;
+        font-size: 2.5vw;
+        font-weight: 500;
         line-height: 1
     }
 }
@@ -16874,7 +16875,7 @@ em {
     .cb-featured-item-text {
         display: block;
         margin: 30px 0 0 0;
-        font-size: 2.58333vw;
+        font-size: 2vw;
         line-height: 133%;
         letter-spacing: -.03em
     }
@@ -17697,7 +17698,7 @@ em {
     opacity: .3;
     cursor: pointer;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 64px;
     letter-spacing: .00464286em;
     text-align: center;
@@ -18045,11 +18046,15 @@ em {
 .cb-brief-header {
     padding: 7px 0 0 0
 }
-
 .cb-brief-header h2 {
+    font-size: 38px;
     color: rgba(0, 0, 0, .9);
-    font-size: 20px;
-    font-weight: 600
+    text-transform: lowercase;
+}
+.cb-brief-header h2 span{
+    display: block;
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
 }
 
 .cb-brief-text {
